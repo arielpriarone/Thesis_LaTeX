@@ -16,5 +16,39 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{IEEEexample:article_typical}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1318a946c3fffa54cec1130748f21c17}{%
+           family={Author},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1318a946c3fffa54cec1130748f21c17}
+      \strng{fullhash}{1318a946c3fffa54cec1130748f21c17}
+      \strng{bibnamehash}{1318a946c3fffa54cec1130748f21c17}
+      \strng{authorbibnamehash}{1318a946c3fffa54cec1130748f21c17}
+      \strng{authornamehash}{1318a946c3fffa54cec1130748f21c17}
+      \strng{authorfullhash}{1318a946c3fffa54cec1130748f21c17}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal}
+      \field{number}{1}
+      \field{title}{Title}
+      \field{volume}{1}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1234/12345678
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

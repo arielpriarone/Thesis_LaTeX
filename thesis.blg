@@ -1,17 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'thesis.blg'
-[272] biber-MSWIN64:340> INFO - === 
-[415] Biber.pm:419> INFO - Reading 'thesis.bcf'
-[571] Biber.pm:979> INFO - Found 1 citekeys in bib section 0
-[596] Biber.pm:4419> INFO - Processing section 0
-[631] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[704] bibtex.pm:1713> INFO - LaTeX decoding ...
-[734] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
-[750] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[751] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[751] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'it-IT'
-[751] Biber.pm:4245> INFO - No sort tailoring available for locale 'it-IT'
-[752] bbl.pm:660> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[752] bbl.pm:763> INFO - Output to thesis.bbl
-[752] Biber.pm:131> WARN - I didn't find a database entry for 'IEEEexample:article_typical' (section 0)
-[752] Biber.pm:133> INFO - WARNINGS: 1
+[251] biber-MSWIN64:340> INFO - === 
+[347] Biber.pm:419> INFO - Reading 'thesis.bcf'
+[486] Biber.pm:979> INFO - Found 1 citekeys in bib section 0
+[506] Biber.pm:4419> INFO - Processing section 0
+[537] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[598] bibtex.pm:1713> INFO - LaTeX decoding ...
+[631] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[721] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[721] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[721] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'it-IT'
+[721] Biber.pm:4245> INFO - No sort tailoring available for locale 'it-IT'
+[723] bbl.pm:660> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[725] bbl.pm:763> INFO - Output to thesis.bbl
