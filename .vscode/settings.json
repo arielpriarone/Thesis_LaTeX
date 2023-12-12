@@ -126,5 +126,13 @@
             ],
             "env": {}
         }
-    ]
+    ],
+    "grammarly.files.include": [
+        "**/readme.md",
+        "**/README.md",
+        "**/*.txt",
+        "**/*.tex"
+    ],
+    "grammarly.config.documentDialect": "british",
+    "grammarly.config.documentDomain": "academic"
 }

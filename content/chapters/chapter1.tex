@@ -7,7 +7,7 @@
 \si{\kilo\gram\per\second}
 
 % generic figure
-\begin{figure}[h]
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{images/logo/polito_logo_2021_blu.jpg}
 \caption{Hi}
@@ -39,7 +39,7 @@
     \begin{minipage}[t]{.49\linewidth}
     \begin{figure}[H]
 	\centering
-	% svg inclusion, requires inkscape
+	% svg inclusion, requires Inkscape
 	\includegraphics[width=\linewidth]{images/logo/polito_logo_2021_blu.jpg}
 	\caption{SVG}
 	\label{fig:svg}
@@ -70,7 +70,7 @@
 
 \begin{table}
     \centering
-    \begin{adjustbox}{width={0.9\textwidth},totalheight={\textheight},keepaspectratio} % needed if the table overflows the margins, requires adjustbox package
+    \begin{adjustbox}{width={0.9\textwidth},totalheight={\textheight},keepaspectratio} % needed if the table overflows the margins, requires adjust box package
     \setcellgapes{3pt}
     \makegapedcells
     \begin{tabular}{|c|c|}
@@ -79,7 +79,7 @@
     \makecell{(Binary) Cross Entropy \\ (average reduction on higher dimensions)} & $\dfrac{\sum_{i=1}^{N} \sum_{j=1}^{C} \hat{y}_i \log\left(y_{i,j}\right)}{N}$ \\ \hline
     \makecell{Categorical Cross Entropy \\ (sum reduction on higher dimensions)} & $- \sum_{i=1}^{N} \hat{y}_i +  \log\left(\sum_{i=1}^{N} \sum_{j=1}^{C} y_{i,j}\right)$ \\ \hline
     \end{tabular}
-    \end{adjustbox} % must be closed before label and caption
+    \end{adjustbox} % must be closed before the label and caption
     \caption{$y$ is the output of the network, $N$ is the batch size multiplied by the number of outputs (e.g. pixels), $C$ is the number of classes and $\hat{y}$ is the correct output.}
     \label{tab:loss_functions}
 \end{table}
