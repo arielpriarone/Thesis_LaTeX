@@ -26,3 +26,6 @@
 \let\oldnorm\norm
 \def\norm{\@ifstar{\oldnorm}{\oldnorm*}}
 \makeatother
+
+\let\dummy\autoref % This redefine autoref as dummy
+\def\autoref#1{\textbf{\dummy{#1}}} % this is like \autoref but in bold
